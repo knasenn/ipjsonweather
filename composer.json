@@ -27,8 +27,15 @@
     },
     "minimum-stability": "beta",
     "prefer-stable": true,
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/knasenn/ipjsonweather"
+    }
+    ],
     "require": {
-        "anax/anax-ramverk1-me": "^1.0.0"
+        "anax/anax-ramverk1-me": "^1.0.0",
+        "anax/ipjsonweather": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^7"
